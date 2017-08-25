@@ -1,0 +1,43 @@
+<div class="breadCrumb">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><span class="fa fa-chevron-right"></span></li>
+    <li class="articleTitle-1">Article</li>
+  </ul>
+</div><!-- end .breadCrumb -->
+
+
+<section class="article">
+
+  <div class="title title-2">
+    <h2></h2>
+    <p class="postAuthor">By Mark Lambda <span>8:50 Am ET</span></p>
+  </div>
+
+
+  <article class="post">
+
+    <aside class="postImg">
+      <p>Image</p>
+    </aside>
+
+    <div class="partial partial-2">
+      <p></p>
+    </div>
+  </article>
+
+</section><!-- end .article -->
+<script type="text/javascript">
+// get and render JSON Data
+$.getJSON("data/data.json", function(partials){
+
+  // grab data for partials rendering
+  var partialsData = partials.response.docs;
+
+  // ------------- partials 2
+  // partials article-2 title and context
+  $(".title-2").children()[0].innerHTML =  partialsData[1].headline.main;
+  $(".partial-2").children()[0].innerHTML =  partialsData[1].lead_paragraph;
+
+});
+</script>
