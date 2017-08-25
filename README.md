@@ -18,10 +18,13 @@ I have uploaded the source files to my blog. The prototype can be viewd by headi
 You can view, fork and download the sourcecode by going to my [GitHub](https://github.com/AdrianSane/Mass-Mutual---Coding-Exercise) page.
 
 ## Dependancies
-⋅⋅* jQuery
+jQuery - for ease of use
+Google Fonts - for typography
+Bootstrap css - for icons
 
 ## Setup
-my setup and logic
+The main page is laid out in its own html file.
+Subsequent articles have been setup in their own partial pages and are dynamically loaded using jQuery and the getJSON method.
+I traversed the dom using jQuery, then added the JSON data using the innerHTML method to populate the html elements on the pages.
+One request is made for every article element on the home page, and every partials page makes its own request for the items needed on those pages.
 
-## Notes
-notes on the project
