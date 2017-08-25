@@ -1,11 +1,13 @@
 # Mass Mutual Coding Exercise
 
 ## Launch
-instructions on how to launch the app
+1. Local Web Server
+⋅⋅⋅Head over to [NPMJS.com](https://www.npmjs.com/package/local-web-server) and follow the installation instructions to download and run a local webserver on your machine to view the coding exercise.
+2. Another item
 
 ## Setup
 my setup and logic
-## Resources
-resources used to build the app
+## Dependancies
+⋅⋅* jQuery
 ## Notes
 notes on the project
