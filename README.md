@@ -12,6 +12,12 @@ Download [MAMP](https://www.mamp.info/en/) and follow the installation instructi
 ### RiotMind.nyc
 
 I have uploaded the source files to my blog. The prototype can be viewd by heading to [RiotMind](http://www.riotmind.nyc/MassMutual/index.html).
+
+### GitHub
+
+You can view, fork and download the sourcecode by going to my [GitHub](https://github.com/AdrianSane/Mass-Mutual---Coding-Exercise) page.
+
+
 ## Setup
 my setup and logic
 ## Dependancies
