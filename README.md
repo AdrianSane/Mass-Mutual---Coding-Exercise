@@ -29,5 +29,6 @@ You can view, fork and download the sourcecode by going to my [GitHub](https://g
 4. One request is made from one main js file for every article element on the home page.
 5. Every partials page makes its own request (using inline scripting) for the items needed on those pages. The data requests are made when the partial page loads.
 6. CSS for both the index page, and partials pages have been implemented in one main file.
-7. A div with a class of "hit" encompasses every article section in the homepage and is used for allowing a user to clickthrough articles  and dynamically loading the partials page based on the article that was clicked. Make sense?
+7. A div with a class of "hit" encompasses every article section in the homepage and is used for allowing a user to clickthrough articles and dynamically loading the partials page based on the article that was clicked. Make sense?
+8. A switch case is used to load the different partials based on a users interactions.
 
